@@ -128,6 +128,8 @@ $datesDeathsFormattedShort = '"'.implode('","',$itemsD).'"' ;
 
     gtag('config', 'UA-162093056-1');
   </script>-->
+  <style>
+h1 {text-align: center;}</style>
 
   <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon//apple-icon-60x60.png">
@@ -176,12 +178,7 @@ $datesDeathsFormattedShort = '"'.implode('","',$itemsD).'"' ;
             <div class="fl w-50-ns pa2 link">
         <!-- FB SHARE HERE-->
             <a href="https://www.buymeacoffee.com/kylerphillips" target="_blank" class="navlinkblock w-inline-block" style=";">
-                <div class="navbuttoniconwrapper coffee">
-                    <div class="navbuttoniconcontainer" style="display: flex;"><img src="https://uploads-ssl.webflow.com/5dc1f3e07930b038a93284e3/5dc6534d11520efe89e08779_Icon_Coffee.svg" alt="" width="14">
-                    </div>
-                    <div class="navbuttoniconcontainerhover" style="display: none;"><img src="https://uploads-ssl.webflow.com/5dc1f3e07930b038a93284e3/5dc65afa2058972e4c7ac0bb_Icon_Coffee_Hover.svg" alt="" width="14">
-                    </div>
-                </div>
+                <div class="navbuttoniconwrapper coffee"></div>
                 <div class="phbuttontextcontainer">
                     <div class="navlinktext phtitle" style="">Hívj meg egy Kávéra</div>
                     <div class="navlinktext phcopy" style="">Segísd az oldal fennmaradását.</div>
@@ -190,7 +187,7 @@ $datesDeathsFormattedShort = '"'.implode('","',$itemsD).'"' ;
             </div>
 
         </header>
-
+        <h1 class="mt0">🦠Világ Statisztika</h1></span>
         <div class="fl w-50 tc stat-card">
           <div class="card-box tilebox-one">
             <span class="icon">
@@ -244,6 +241,65 @@ $datesDeathsFormattedShort = '"'.implode('","',$itemsD).'"' ;
           </div>
         </div>
       </article>
+      <br> 
+      <br>
+</br>
+      <!-- Magyar cards-->
+      <br><h1 class="mt0">🦠🇭🇺 Statisztika</h1></span></br>
+      <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+              <img src="assets/img/cases.svg">
+            </span>
+            <h6 class="black-40 ttu tl">Összes fertőzött száma</h6>
+            <h3 class="black tl" data-plugin="counterup"><?php echo number_format($obj-> cases) ?></h3>
+            <div class="sub-info pt3 pb4">
+              <span class="badge <?php echo getBadgeClass(getPercentageChange($yesterdayCases, $totalCases));?> mr-1"><?php echo getPercentageChange($yesterdayCases, $totalCases) ?></span>
+              <span class="text-muted black-40">Tegnaphoz képest (<?php echo thousandsCurrencyFormat($yesterdayCases) ?>)</span>
+            </div>
+          </div>
+        </div>
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+              <img src="assets/img/deaths.svg">
+            </span>
+            <h6 class="black-40 ttu tl">Összes Elhunyt száma</h6>
+            <h3 class="black tl" data-plugin="counterup"><?php echo number_format($obj-> deaths) ?></h3>
+            <div class="sub-info pt3 pb4">
+              <span class="badge <?php echo getBadgeClass(getPercentageChange($yesterdayDeaths, $totalDeaths));?> mr-1"><?php echo getPercentageChange($yesterdayDeaths, $totalDeaths) ?></span>
+              <span class="text-muted black-40">Tegnaphoz képest (<?php echo thousandsCurrencyFormat($yesterdayDeaths) ?>)</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="cf">
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon"><img src="assets/img/recoveries.svg"></span>
+            <h6 class="black-40 ttu tl">Összesen felépültek</h6>
+            <h3 class="black tl" data-plugin="counterup"><?php echo number_format($obj-> recovered) ?></h3>
+            <div class="sub-info pt3 pb4">
+              <span class="badge <?php echo getBadgeClass(getPercentageChange($totalRecoveries, $yesterdayRecoveries));?> mr-1"><?php echo getPercentageChange($yesterdayRecoveries, $totalRecoveries) ?></span>
+              <span class="text-muted black-40">Tegnaphoz képest (<?php echo thousandsCurrencyFormat($yesterdayRecoveries) ?>)</span>
+            </div>
+          </div>
+        </div>
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+              <img src="assets/img/active_cases.svg">
+            </span>
+            <h6 class="black-40 ttu tl">Aktív fertőzöttek száma</h6>
+            <h3 class="black tl" data-plugin="counterup"><?php echo number_format($obj-> active) ?></h3>
+            <div class="sub-info pt3 pb4">
+              <span class="badge <?php echo getBadgeClass(getPercentageChange($activeYesterday, $activeCases));?> mr-1"><?php echo getPercentageChange($activeYesterday, $activeCases) ?></span>
+              <span class="text-muted black-40">Tegnaphozképest (<?php echo thousandsCurrencyFormat($activeYesterday) ?>)</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
       <footer class="">
 
         <div class="mt1">
