@@ -80,31 +80,23 @@
               <div class="switch-wrapper">
                   <img class="theme-icon" src="assets/img/moon.svg">
                   <div class="theme-switch">
-                      <div class="switch"></div>
+                      <div class="switch"></div> 
                   </div>
               </div>
           </nav>
           <article class="cf">
         <header class="header mw5 mw7-ns tl pa3">
           <div class="fl w-50-ns pa2">
-          <h1 class="mt0">👑Koronavírus<img class="theme-icon" src="assets/img/coronavirus.svg">Statisztika</h1>
+          <h1 class="mt0">👑Koronavírus<img class="theme-icon" src="assets/img/coronavirus.svg">Statisztika</h1> 
           <p class="lh-copy measure black-60">
              Covid-19 Világ és Hazai statisztikák, hírek intézkedések.
-          </p>
+          </p>   
            </div>
-            <div class="fl w-50-ns pa2 link">
         <!-- FB SHARE HERE-->
-        <img src="https://img.icons8.com/cotton/64/000000/hot-coffee--v1.png"/><a href="https://www.buymeacoffee.com/kylerphillips" target="_blank" class="navlinkblock w-inline-block" style=";">
-                <div class="navbuttoniconwrapper coffee"></div>
-                <div class="phbuttontextcontainer">
-                    <div class="navlinktext phtitle" style="">Hívj meg egy Kávéra</div>
-                    <div class="navlinktext phcopy" style="">Segísd az oldal fennmaradását.</div>
-                </div>
-            </a>
-            </div>
 
         </header>
-
+        <style>h1 {text-align: center;}</style>
+        <h1 class="mt0">🇭🇺<img class="theme-icon" src="assets/img/coronavirus.svg">Statisztika</h1>
         <div class="fl w-50 tc stat-card">
           <div class="card-box tilebox-one">
             <span class="icon">
@@ -142,7 +134,54 @@
           </div>
         </div>
       </article>
-
+      <div class="fl w-50-ns pa2 link">
+      <a href="" target="_blank" class="navlinkblock w-inline-block" style=";">
+                <div class="navbuttoniconwrapper coffee"></div>
+                <div class="phbuttontextcontainer">
+                    <div class="navlinktext phcopy" style="">Világ Statisztika</div>
+                    <div class="navlinktext phcopy" style="">adatait itt olvashatod le.</div>
+                </div>
+            </a>
+            </div>
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="Alparslan" data-color="#000000" data-emoji=""  data-font="Cookie" data-text="Hívj meg egy Kávéra" data-outline-color="#fff" data-font-color="#fff" data-coffee-color="#fd0" ></script>
+      <br>
+      <br>
+      <br>
+      <style>h1 {text-align: center;}</style>
+        <h1 class="mt0">🦠Tünetek Jellemzői</h1>
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+              <img src="assets/img/cases.svg">
+            </span>
+            <h3 class="black-40 ttu tl">izomfájdalom, orrdugulás</h3>
+          </div>
+        </div>
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+            <img src="https://img.icons8.com/cute-clipart/64/000000/coughing.png"/>
+            </span>
+            <h3 class="black-40 ttu tl"> Száraz Köhögés, torok fájás</h3>
+          </div>
+        </div>
+      </article>
+      <article class="cf">
+        <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon"><img src="assets/img/recoveries.svg"></span>
+            <h3 class="black-40 ttu tl">az íz- és a szaglásérzékelés elvesztése</h3>
+          </div>
+        </div> <div class="fl w-50 tc stat-card">
+          <div class="card-box tilebox-one">
+            <span class="icon">
+              <img src="assets/img/cases.svg">
+            </span>
+            <h3 class="black-40 ttu tl">Láz.hasmenés, légszomj.</h3>
+          </div>
+        </div>
+      </article>
+        <br>
       <footer class="">
 
 <div class="mt1">
