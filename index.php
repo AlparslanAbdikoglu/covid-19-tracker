@@ -55,13 +55,6 @@
   <meta property="og:description" content="Track the spread of the Coronavirus Covid-19 outbreak">
   <meta property="og:image" content="https://viruscovid.tech/assets/img/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
-  Twitter
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://viruscovid.tech">
-  <meta property="twitter:title" content="🦠COVID-19 Tracker">
-  <meta property="twitter:description" content="Track the spread of the Coronavirus Covid-19 outbreak">
-  <meta property="twitter:image" content="https://viruscovid.tech/assets/img/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-  <script type="text/javascript" src="assets/js/Chart.bundle.min.js"></script> -->
 
   <!-- Datatables -->
   <script src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
